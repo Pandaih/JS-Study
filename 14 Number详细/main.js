@@ -10,7 +10,7 @@ console.log(parseInt('20.9'));//20
 console.log(parseInt('24',5)); //14
 console.log(parseInt('123', 5)); // 将'123'看作5进制数，返回十进制数38 => 1*5^2 + 2*5^1 + 3*5^0 = 38
 
-/*parseInt()函数
+/*parseInt()函数，得到的是：整数
 如果不是NaN，返回值将是第一个参数的整数，即第一个参数作为指定的 radix 的数字。
 16进制：A=11  B=12  C=13  D=14  E=15  F=16
 如果第一个字符不能转换为数字，parseInt会返回 NaN。
@@ -27,11 +27,12 @@ console.log(!!0);  //false
 console.log(!!-2);//true
 console.log(!!1);//true
 
-// parseFloat()函数
+// parseFloat()函数, 得到的是：小数 浮点数
 console.log(parseFloat('1.0'));    // 1
 console.log(parseFloat('a1.4'));  // NaN
 console.log(parseFloat('.0'));    // 0
-console.log(parseFloat('1.5a'));  // NaN
+console.log(parseFloat('1.5a'));  // 1.5
+console.log(parseFloat('3.14'));   // 3.14
 
 //NaN  not a number ,但是是Number数据类型
 console.log(NaN==NaN);   //false
