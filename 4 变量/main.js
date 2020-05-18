@@ -1,9 +1,9 @@
 var a = 123;
 a = 'hello';
-console.log(a);
+console.log(a);   // hello
 
 var b = [1,2,3];
-console.log(b.length);
+console.log(b.length);  // 3
 
 // 布尔型,boolean 和number相加时， true当做1来看， false当做 0
 var a= true;
