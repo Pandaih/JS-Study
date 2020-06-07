@@ -90,7 +90,7 @@ function getmax(arr){
 var ss=getmax([1,2,34,56,77,567]);
 console.log(ss);
 
-// 练习5： return 后面的语句不会被执行
+// 练习5： return终值函数，后面的语句不会被执行
 function haha(aa,bb){
   return aa+bb;
   alert('pick me~~');
@@ -115,6 +115,7 @@ function yy(){
   return 123;
 }
 console.log(yy());
+
 
 function uu(){
 }
